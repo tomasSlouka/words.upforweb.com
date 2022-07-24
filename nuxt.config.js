@@ -1,9 +1,9 @@
 
 export default {
 	srcDir: __dirname,
-	buildDir: 'apps/worklio/.nuxt/worklio',
+	buildDir: 'apps/words/.nuxt/words',
 	generate: {
-	  dir: 'apps/worklio/generate',
+		dir: 'apps/words/generate',
 	},
 	/*
 	** Nuxt rendering mode
@@ -20,42 +20,42 @@ export default {
 	** See https://nuxtjs.org/api/configuration-head
 	*/
 	head: {
-        title: 'Worklio',
+		title: 'Words',
 		htmlAttrs: {
 			lang: 'sk'
 		},
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-            { hid: 'title', name: "title", content: "Worklio." },
-            { hid: 'description', name: "description", content: "Jednoduchá TODO list aplikácia" },
-            { hid: 'og-type', property: "og:type", content: "website" },
-            { hid: 'og-url', property: "og:url", content: "https://worklio.upforweb.com/" },
-            { hid: 'og-title', property: "og:title", content: "Worklio." },
-            { hid: 'og-description', property: "og:description", content: "Jednoduchá TODO list aplikácia" },
-        ],
-        link: [
-			
-        ],
-        script: [
+		meta: [
+			{ charset: 'utf-8' },
+			{ name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
+			{ hid: 'title', name: "title", content: "Words." },
+			{ hid: 'description', name: "description", content: "Words - personal dictionary" },
+			{ hid: 'og-type', property: "og:type", content: "website" },
+			{ hid: 'og-url', property: "og:url", content: "https://words.upforweb.com/" },
+			{ hid: 'og-title', property: "og:title", content: "Words." },
+			{ hid: 'og-description', property: "og:description", content: "Words - personal dictionary" },
+		],
+		link: [
 
 		],
-    },
+		script: [
+
+		],
+	},
 	/*
 	** Global CSS
 	*/
 	css: [
-        "~assets/css/global.css",
-        "~assets/css/_system/flex.css",
-        "~assets/css/_system/grid.css",
-        "~assets/css/_system/webbase.css",
-        "~assets/css/_system/animations.css",
+		"~assets/css/global.css",
+		"~assets/css/_system/flex.css",
+		"~assets/css/_system/grid.css",
+		"~assets/css/_system/webbase.css",
+		"~assets/css/_system/animations.css",
 	],
 	loading: { color: '#ffd401', height: '2px', width: '100%' },
 	pageTransition: {
-        name: 'layout',
-        mode: 'out-in'
-    },
+		name: 'layout',
+		mode: 'out-in'
+	},
 	/*
 	** Plugins to load before mounting the App
 	** https://nuxtjs.org/guide/plugins
