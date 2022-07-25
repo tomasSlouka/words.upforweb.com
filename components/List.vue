@@ -61,7 +61,7 @@
                         </div> -->
                     </div>
                     <div class="p20 font12 align-self-end">
-                        <a href='https://github.com/tomasSlouka/worklio.upforweb.com' target="_blank">See the code at
+                        <a href='https://github.com/tomasSlouka/words.upforweb.com' target="_blank">See the code at
                             GitHub.</a>
                         <p>© {{ new Date().getFullYear() }} by tomasSlouka</p>
                     </div>
