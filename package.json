@@ -1,7 +1,4 @@
 {
-  "engines": {
-    "node": "v16.16.0"
-  },
   "name": "words.upforweb.com",
   "author": "Tomas Slouka",
   "version": "1.0.0",
